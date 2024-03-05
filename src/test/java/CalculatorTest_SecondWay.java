@@ -1,9 +1,8 @@
 import org.Admon.Calculator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.Admon.Main;
 
-public class CalculatorTestSecondWay {
+public class CalculatorTest_SecondWay {
 
     @Test
     public void testAddition() {
