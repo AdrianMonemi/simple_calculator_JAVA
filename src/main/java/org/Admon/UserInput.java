@@ -2,7 +2,7 @@ package org.Admon;
 
 import java.util.Scanner;
 class UserInput {
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static double getDoubleInput(String prompt) {
         System.out.print(prompt);
